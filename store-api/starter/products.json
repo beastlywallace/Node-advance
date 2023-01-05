@@ -1,25 +1,32 @@
 [
     {
-        "name": "accent chair",
-        "price": 25,
+        "name": "yes ma chair",
+        "price": 65,
         "company": "marcos",
         "rating": 4
     },
     {
         "name": "accent chair",
         "price": 25,
-        "company": "marcos",
+        "company": "liddy",
         "rating": 4
     },
     {
         "name": "accent chair",
-        "price": 25,
-        "company": "marcos",
+        "price": 252,
+        "company": "ikea",
         "rating": 4
     },
     {
-        "name": "accent chair",
-        "price": 25,
+        "name": "solo chair",
+        "price": 244,
+        "company": "marcos",
+        "rating": 4
+    }
+,
+    {
+        "name": "solo chair",
+        "price": 244,
         "company": "marcos",
         "rating": 4
     }
