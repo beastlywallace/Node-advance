@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 })
 
 
-app.use('/gg', productRouter)
+app.use('/v1/products', productRouter)
 app.use(errorMiddleware)
 app.use(notFoundMiddleware)
 const port =process.env.PORT || 9000
