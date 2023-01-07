@@ -7,6 +7,7 @@ const getAllJobs = async (req, res) => {
   res.status(StatusCodes.OK).json({ jobs, count: jobs.length })
 }
 const getJob = async (req, res) => {
+  // id is destrutured frm request since u av added it to ur route param
   const {
     user: { userId },
     params: { id: jobId },
