@@ -1,6 +1,6 @@
 const CustomError = require('../errors');
 const { isTokenValid } = require('../utils');
-
+// when using cookie,add proxy to the package json because u are using diffrnt domain for developemnt
 const authenticateUser = async (req, res, next) => {
   const token = req.signedCookies.token;
 
