@@ -9,7 +9,6 @@ const {
 
 const getAllUsers = async (req, res) => {
   console.log(req.user);
-  //fetch all except password
   const users = await User.find({ role: 'user' }).select('-password');
   res.status(StatusCodes.OK).json({ users });
 };
